@@ -4,12 +4,12 @@
       v-flex(xs12 sm8 md12)
         section-def
           dt(slot="title") Getting Started
-          dd(slot="desc") Use one of the Vuetify.js Vue CLI packages <em>(based on the official examples)</em> to get your project started in no time. Vuetify.js supports <strong>SSR</strong> (server-side rendering), <strong>SPA</strong> (single page application), <strong>PWA</strong> (progressive web application) and standard <strong>HTML</strong> pages.
+          dd(slot="desc") Use one of the Vuetify.js vue-cli packages <em>(based on the official examples)</em> to get your project started in no time. Vuetify.js supports <strong>SSR</strong> (server-side rendering), <strong>SPA</strong> (single page application), <strong>PWA</strong> (progressive web application) and standard <strong>HTML</strong> pages.
       ad
 
     section
       section-header CDN Install
-      section-text To test using Vuetify.js without installing a template from Vue CLI, include the files below into the <code>index</code> file of your application after the Vue.js script. Vuetify will automatically install and be ready to use.
+      section-text To test using Vuetify.js without installing a template from vue-cli, include the files below into the <code>index</code> file of your application after the Vue.js script. Vuetify will automatically install and be ready to use.
       markup(lang="html")
         |// Font library and icon pack
         |&lt;link href='https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons' rel="stylesheet" type="text/css"&gt;
@@ -23,7 +23,7 @@
 
     section
       section-header New applications
-      section-text Vuetify has 5 pre-made Vue CLI templates, 3 which are forked from <a href="https://github.com/vuejs-templates" target="_blank" rel="noopener">official Vue.js templates</a>. They contain small modifications to help you get started with Vuetify even faster. These packages require <code>vue-cli</code>. For more information on vue-cli, visit the official <a href="https://github.com/vuejs/vue-cli" target="_blank" rel="noopener">Github</a> repository.
+      section-text Vuetify has 5 pre-made vue-cli templates, 3 of which are forked from <a href="https://github.com/vuejs-templates" target="_blank" rel="noopener">official Vue.js templates</a>. They contain small modifications to help you get started with Vuetify even faster. These packages require vue-cli. For more information on vue-cli, visit the official <a href="https://github.com/vuejs/vue-cli" target="_blank" rel="noopener">Github</a> repository.
       v-tabs(class="elevation-1 mb-5" grow icons dark)
         v-tabs-bar(slot="activators")
           v-tabs-slider
@@ -75,13 +75,13 @@
                 |$  vue init vuetifyjs/nuxt
     section
       section-header NPM Install
-      section-text After the vue-cli installation finishes, <kbd>cd</kbd> into your project directory and type <kbd>npm install</kbd>. Alternatively, if you are using Facebook's recently released <a href="https://yarnpkg.com/" target="_blank" rel="noopener">yarn package manager</a>, you can simply type <kbd>yarn</kbd>.
+      section-text After the vue-cli installation finishes, <kbd>cd</kbd> into your project directory and type <kbd>npm install</kbd>. Alternatively, if you are using <a href="https://yarnpkg.com/" target="_blank" rel="noopener">yarn</a>, you can simply type <kbd>yarn</kbd>.
 
       section-text Once the package installation is complete, type <kbd>npm run dev</kbd> into your console. This will start a <a href="https://nodejs.org/en/" target="_blank" rel="noopener">nodejs</a> server locally which can be accessed by navigating to <a href="http://localhost:8080" target="_blank" rel="noopener">http://localhost:8080</a> in your browser.
 
     section
       section-header Existing applications
-      section-text If you are wanting to use Vuetify in an existing project, you can install by using npm or yarn. Keep in mind, you will still need to <strong><em>include</em></strong> Vuetify, Roboto font library, and Material icon library css files as they are <strong>not</strong> part of the javascript import.
+      section-text If you are wanting to use Vuetify in an existing project, you can install by using npm or yarn. Keep in mind, you will still need to <strong><em>include</em></strong> Vuetify, Roboto font library, and Material icon library css files as they are <strong>not</strong> part of the JavaScript import.
       markup(lang="cli")
         |$  npm install vuetify
         |&nbsp;
